@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.empresa.hitoprogramacion.LoginController">
+    <padding>
+        <Insets bottom="20" left="20" right="20" top="20" />
+    </padding>
+
+    <Text text="Concesionario de Coches - Iniciar Sesión / Registrarse" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="0">
+        <font>
+            <Font name="Arial" size="24" />
+        </font>
+    </Text>
+
+    <Label text="Usuario:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <TextField fx:id="usernameField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Label text="Contraseña:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+    <Button onAction="#onLoginButtonClick" text="Iniciar Sesión" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+
+    <TextArea fx:id="messageArea" editable="false" prefHeight="100" prefWidth="300" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="4">
+        <font>
+            <Font name="Arial" size="14" />
+        </font>
+    </TextArea>
+</GridPane>

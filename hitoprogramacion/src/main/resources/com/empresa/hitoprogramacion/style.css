@@ -1,0 +1,46 @@
+/* Estilo para el fondo de la aplicación */
+.root {
+    -fx-background-color: #f5f5f5; /* Color de fondo */
+}
+
+/* Estilo para el título */
+.text-title {
+    -fx-font-size: 24px; /* Tamaño de la fuente */
+    -fx-font-weight: bold; /* Negrita */
+    -fx-fill: #333; /* Color del texto */
+}
+
+/* Estilo para los botones */
+.button {
+    -fx-background-color: #4CAF50; /* Color de fondo */
+    -fx-text-fill: white; /* Color del texto */
+    -fx-font-size: 14px; /* Tamaño de la fuente */
+    -fx-padding: 8px 16px; /* Espaciado interno */
+    -fx-background-radius: 4px; /* Bordes redondeados */
+    -fx-border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo para los campos de texto */
+.text-field {
+    -fx-background-color: #fff; /* Color de fondo */
+    -fx-text-fill: #333; /* Color del texto */
+    -fx-font-size: 14px; /* Tamaño de la fuente */
+    -fx-padding: 8px; /* Espaciado interno */
+    -fx-border-color: #ccc; /* Color del borde */
+    -fx-border-width: 1px; /* Ancho del borde */
+    -fx-border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo para las tablas */
+.table-view {
+    -fx-background-color: #fff; /* Color de fondo */
+    -fx-padding: 10px; /* Espaciado interno */
+    -fx-border-color: #ccc; /* Color del borde */
+    -fx-border-width: 1px; /* Ancho del borde */
+    -fx-border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo para el texto en las celdas de la tabla */
+.table-cell {
+    -fx-text-fill: #333; /* Color del texto */
+}
